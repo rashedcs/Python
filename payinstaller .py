@@ -9,4 +9,5 @@ sudo pip install PyInstaller
 
 3. Convert into exe
 
-pyinstaller --onefile <script_name>
+pyinstaller --onefile <script_name>  
+   
