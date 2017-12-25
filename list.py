@@ -26,13 +26,13 @@ Case 2 :
         
      Output : [ 1 2 3 4 5]
         
-num = int(input())
+num = int(input('Enter number '))
 arr = list()
-
-print("Enter elements :")
 
 for i in range(num) :
   ele  = int(input())
   arr.append(ele)
 
 print(arr)
+
+#you can not input space separated for loop in list like : 1 2 3 4 5
