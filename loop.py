@@ -1,10 +1,9 @@
-
 #iterate 1 to n
 n = int(input())  
 for i in range(1, n):
         b = i
         print(b, end=" ")
-print
+
 
        
 #iterate over element 
@@ -20,7 +19,11 @@ for x in arr:
 n = int(input())
 arr = list(map(int, input().split()))
 for i in range(0, n):
-	print(arr[i], end=" ")
+	print("%d %d" %(i, arr[i]))
+	
+	
+	
+	
     
     
     
